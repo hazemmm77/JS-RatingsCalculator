@@ -26,6 +26,6 @@ function collect_ratings() {
    return ratings ;
 }
 document.addEventListener("change", function(){
-rating= collect_ratings();
+const ratings= collect_ratings();
 
 });
