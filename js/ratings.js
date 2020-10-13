@@ -5,7 +5,8 @@ function collect_ratings() {
      average:0
    };
    let rating=0;
-   let elements=document.querySelectorAl('.rating');
+   const elements=document.querySelectorAl('.rating');
+
 
   elements.forEach(element => {
     rating= parseInt(element.id.replace('star',''));
